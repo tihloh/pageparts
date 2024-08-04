@@ -1,0 +1,51 @@
+<!-- Customer Support -->
+	<form id="supportform" method="get">
+	<div class="modal fade" id="support-modal" tabindex="-1" aria-labelledby="SupportModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h1 class="modal-title fs-5" id="MemberModalLabel">Customer Support</h1>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body">
+			<div class="mb-3">
+				<div class="form-input">
+					<label>Anu ang iyong problema?</label><br><br>
+					<a class="btn btn-sm btn-warning quickhelp" data-val="Hindi po ako makahulog.">Hindi makahulog</a>
+					<a class="btn btn-sm btn-warning quickhelp" data-val="Kinain po ang aking barya." data-showamount="true">Kinain ang barya</a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="form-floating">
+					<input type="text" class="form-control" id="supname" name="name" required>
+					<label for="supname">Pangalan mo</label>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="form-floating">
+					<textarea class="form-control" id="supmsg" name="msg" style="height: 100px;" required></textarea>
+					<label for="supmsg">Message</label>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="form-floating">
+					<input type="number" class="form-control" id="supamount" name="amount" required>
+					<label for="supamount">Amount</label>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="form-floating">
+					<input type="time" class="form-control" id="suptime" name="time" required>
+					<label for="suptime">Anung oras?</label>
+				</div>
+			</div>
+			<p class="primary"><b>Paalala:</b><br>Magpakilala at magsabi lamang ng totoo.<br><br>Nate-trace din namin kung naghulog ka talaga. Mino-monitor namin ang pisowifi araw-araw.<br><br>Maghinay sapagkat hindi namin agad-agad mababasa ang mga messages.<br>Sa oras na mabasa namin ito ay agad po naming aaksyonan.<br>Salamat sa pag-unawa.</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+			<button type="submit" class="btn btn-primary"><i class="fa-solid fa-send"></i> Submit</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	</form>
